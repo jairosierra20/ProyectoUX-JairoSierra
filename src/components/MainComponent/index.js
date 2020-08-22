@@ -1,7 +1,6 @@
 import React from "react";
-import NotesList from "../NotesList";
-import NoteBooks from "../NoteBooks";
-import CreateNote from "../CreateNote";
+import ListaNotas from "../ListaNotas";
+import CrearNota from "../CrearNota";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { StateProvider, initialState, reducer } from "../../statemanagement";
@@ -21,13 +20,12 @@ function MainComponent() {
               <ModalBase />
               <ShowModal />
               <Grid item xs={2}>
-                <NoteBooks />
               </Grid>
               <Grid item xs={5}>
-                <NotesList />
+                <ListaNotas />
               </Grid>
               <Grid item xs={5}>
-                <CreateNote />
+                <CrearNota />
               </Grid>
             </React.Fragment>
           </StateProvider>
