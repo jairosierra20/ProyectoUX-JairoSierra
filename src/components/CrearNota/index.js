@@ -16,8 +16,7 @@ function CreateNote() {
     id: 0, //almacena la fecha de la nota
     category: "",
     message: "",
-    title: "",
-    notebook: ""
+    title: ""
   });
   const inputLabel = React.useRef(null);
   const [labelWidth, setLabelWidth] = React.useState(0);
@@ -142,6 +141,7 @@ function CreateNote() {
           <option value={"Bootstarp"}>Bootstarp</option>
           <option value={"Electron"}>Electron</option>
           <option value={"HTML"}>HTML</option>
+          <option value={"Matematicas"}>Matematicas</option>
         </Select>
       </FormControl>
       <Button

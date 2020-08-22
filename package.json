@@ -14,7 +14,7 @@
     "react-responsive": "^8.1.0",
     "react-scripts": "^3.4.3"
   },
-  "main": "src/electron-starter.js",
+  "main": "src/electron-start.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

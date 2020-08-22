@@ -147,7 +147,7 @@ function NotesList() {
       <Typography
         variant="h5"
         align="center"
-        color="primary"
+        color="secondary"
         gutterBottom
         noWrap
       >

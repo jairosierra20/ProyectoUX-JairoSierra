@@ -149,7 +149,7 @@ export default function ModalBase() {
           />
           <Button
             variant="outlined"
-            color="primary"
+            color="secondary"
             className={classes.button}
             onClick={addToNotes}
           >

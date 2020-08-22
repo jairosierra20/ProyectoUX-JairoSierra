@@ -44,7 +44,7 @@ export default function ShowModal() {
         >
           <DialogTitle id="form-dialog-title">{state.title}</DialogTitle>
           <DialogContent>
-            <Typography color={"primary"} variant="caption">
+            <Typography color={"secondary"} variant="caption">
               category : {state.category}
             </Typography>
             <Divider />
