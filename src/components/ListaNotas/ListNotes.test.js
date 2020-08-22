@@ -28,7 +28,7 @@ describe("List the Notes", () => {
       </IncludingProvider>
     );
 
-    expect(wrapper.find(<Note />).length).toBe(0); //because it is not on map
+    expect(wrapper.find(<Note />).length).toBe(0);
   });
 
   test("List notes must be 2", () => {

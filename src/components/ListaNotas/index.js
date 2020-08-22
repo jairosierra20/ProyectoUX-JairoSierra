@@ -151,7 +151,7 @@ function NotesList() {
         gutterBottom
         noWrap
       >
-        Notes
+        Mis Notas
       </Typography>
       <TextField
         value={stateCategory}
@@ -180,30 +180,6 @@ function NotesList() {
         size="large"
         aria-label="large contained secondary button group"
       >
-        <Button
-          color={stateCategory === "React" ? "secondary" : "primary"}
-          onClick={() => searchCategory("React")}
-        >
-          React
-        </Button>
-        <Button
-          color={stateCategory === "Bootstrap" ? "secondary" : "primary"}
-          onClick={() => searchCategory("Bootstrap")}
-        >
-          Bootstrap
-        </Button>
-        <Button
-          color={stateCategory === "Javascript" ? "secondary" : "primary"}
-          onClick={() => searchCategory("Javascript")}
-        >
-          Javascript
-        </Button>
-        <Button
-          color={stateCategory === "Electron" ? "secondary" : "primary"}
-          onClick={() => searchCategory("Electron")}
-        >
-          Electron
-        </Button>
       </ButtonGroup>
       <div className={classes.margin}>
         {mainData.length > 0 &&

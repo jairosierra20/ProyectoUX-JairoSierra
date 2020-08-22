@@ -47,15 +47,7 @@ function Note(props) {
     <Paper className={classes.paper}>
       <Grid container>
         <div className={title}>
-          <Checkbox
-            checked={checkbox}
-            onChange={handleChangeCheckBox}
-            value="checkedA"
-            inputProps={{
-              "aria-label": "primary checkbox"
-            }}
-          />
-          {row + 1}- {title}({category})
+           {title}({category})
         </div>
       </Grid>
       <Divider variant="middle" />
@@ -66,7 +58,7 @@ function Note(props) {
           className={classes.button}
         >
           <Button variant="outlined" color="secondary" onClick={deleteNote}>
-            Delete
+            Eliminar
           </Button>
         </ButtonGroup>
       </Grid>

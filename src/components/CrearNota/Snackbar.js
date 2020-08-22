@@ -36,7 +36,7 @@ export default function CustomSnackbar(props) {
         ContentProps={{
           "aria-describedby": "message-id"
         }}
-        message={<span id="message-id">Note with this id exists</span>}
+        message={<span id="message-id">La nota ya existe</span>}
         action={[
           <IconButton
             key="close"

@@ -111,13 +111,15 @@ function CreateNote() {
 
       <TextField
         id="outlined-textarea"
-        label="Titulo de la Nota"
-        placeholder="Escribe el titulo"
+        label="Escribe el contenido de la nota"
+        placeholder="Escribe la nota"
+        multiline
         className={classes.textField}
         margin="normal"
         variant="outlined"
-        fullWidth
         onChange={e => handleChange("title", e)}
+        rows={10}
+        fullWidth
       />
 
       <FormControl variant="outlined" className={classes.formControl}>
@@ -142,19 +144,6 @@ function CreateNote() {
           <option value={"HTML"}>HTML</option>
         </Select>
       </FormControl>
-
-      <TextField
-        id="outlined-textarea"
-        label="Escribe el contenido de la nota"
-        placeholder="Escribe la nota"
-        multiline
-        className={classes.textField}
-        margin="normal"
-        variant="outlined"
-        onChange={e => handleChange("message", e)}
-        rows={10}
-        fullWidth
-      />
       <Button
         variant="outlined"
         color="primary"
