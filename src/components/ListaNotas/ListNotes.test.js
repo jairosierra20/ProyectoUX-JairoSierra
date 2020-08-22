@@ -1,7 +1,7 @@
 import React from "react";
 import ListaNotas from "./index";
-import { clearLocaStorage, IncludingProvider } from "../../Utils/TestUtils";
-import LocalStorage from "../../Utils/localStorage";
+import { clearLocaStorage, IncludingProvider } from "../../Utilidades/TestUtils";
+import LocalStorage from "../../Utilidades/localStorage";
 import { mount } from "../../enzyme";
 import Note from "./Note";
 

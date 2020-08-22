@@ -1,7 +1,7 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
-import LocalStorage from "../../Utils/localStorage";
+import LocalStorage from "../../Utilidades/localStorage";
 import { useStateValue } from "../../statemanagement";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import Divider from "@material-ui/core/Divider";

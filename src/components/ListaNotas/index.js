@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Typography from "@material-ui/core/Typography";
 import Note from "./Note";
 import { useStateValue } from "../../statemanagement";
-import LocalStorage from "../../Utils/localStorage";
+import LocalStorage from "../../Utilidades/localStorage";
 import TextField from "@material-ui/core/TextField";
 import SearchIcon from "@material-ui/icons/Search";
 import InputAdornment from "@material-ui/core/InputAdornment";

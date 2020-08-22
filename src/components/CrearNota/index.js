@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 import InputLabel from "@material-ui/core/InputLabel";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import LocalStorage from "../../Utils/localStorage";
+import LocalStorage from "../../Utilidades/localStorage";
 import { useStateValue } from "../../statemanagement";
 import { useStyles } from "./styles";
 import CustomSnackbar from "./Snackbar";

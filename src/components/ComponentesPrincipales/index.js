@@ -4,13 +4,12 @@ import CrearNota from "../CrearNota";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { StateProvider, initialState, reducer } from "../../statemanagement";
-import ModalBase from "../../Utils/Modal";
-import ShowModal from "../../Utils/ShowModal";
+import ModalBase from "../../Utilidades/Modal";
+import ShowModal from "../../Utilidades/ShowModal";
 import { useStyles } from "./styles";
 
 function MainComponent() {
   const classes = useStyles();
-
   return (
     <React.Fragment>
       <Paper className={classes.root}>
