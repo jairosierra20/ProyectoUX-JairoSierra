@@ -15,7 +15,8 @@ export default function ShowModal() {
     message: "",
     title: ""
   });
-
+  var hoy = new Date(),
+  date = hoy.getFullYear + '/' + (hoy.getMonth()+1) + '/ ' + hoy.getDate();
   const handleClose = () => {
     dispatch({ type: "showMessage", showModal: false });
   };

@@ -138,10 +138,11 @@ function CreateNote() {
           <option value="" />
           <option value={"React"}>React</option>
           <option value={"Javascript"}>Javascript</option>
-          <option value={"Bootstarp"}>Bootstarp</option>
+          <option value={"Bootstrap"}>Bootstrap</option>
           <option value={"Electron"}>Electron</option>
           <option value={"HTML"}>HTML</option>
           <option value={"Matematicas"}>Matematicas</option>
+          <option value={"Programacion"}>Programacion</option>
         </Select>
       </FormControl>
       <Button

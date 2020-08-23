@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ProyectoUx-JairoSierra2020/precache-manifest.1f5ffd44f9555ac4dc2bedc652d5edd8.js"
+  "/ProyectoUx-JairoSierra2020/precache-manifest.39dbc3fadbe3fdc8cc90119d3bf2ccda.js"
 );
 
 self.addEventListener('message', (event) => {
