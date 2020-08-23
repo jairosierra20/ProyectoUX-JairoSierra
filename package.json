@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jairosierra20.github.io/ProyectoUx-JairoSierra2020",
   "name": "proyecto_jairosierra",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,7 @@
     "@material-ui/core": "^4.5.1",
     "@material-ui/icons": "^4.5.1",
     "bootstrap": "^4.5.2",
+    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "react": "^16.10.2",
@@ -22,7 +24,9 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
     "lint": "eslint src",
-    "electron": "electron ."
+    "electron": "electron .",
+    "predeplay": "npm run build",
+    "deplay": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
